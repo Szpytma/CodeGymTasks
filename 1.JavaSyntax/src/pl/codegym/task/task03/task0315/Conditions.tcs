@@ -1,0 +1,22 @@
+taskKey="pl.codegym.task.task03.task0315"\n\nCzemu Patrzysz, Żabko Zielona...
+
+Utwórz 7 obiektów, aby wyświetlić na ekranie 7 kolorów tęczy.
+Przykładowy wynik:
+Czerwony
+Pomarańczowy
+Żółty
+Zielony
+Niebieski
+Granatowy
+Fioletowy
+Każdy obiekt wyświetli podczas tworzenia go określony kolor.
+
+
+Requirements:
+1.	Program powinien wyświetlać tekst.
+2.	Musisz utworzyć 7 r&oacute;żnych obiekt&oacute;w odpowiadających kolorom.
+3.	Kolejność tworzenia obiekt&oacute;w musi odpowiadać kolejności kolor&oacute;w tęczy.
+4.	Nie zmieniaj klas odpowiedzialnych za kolory.
+5.	Wyświetlany tekst musi spełniać warunki zadania.
+
+

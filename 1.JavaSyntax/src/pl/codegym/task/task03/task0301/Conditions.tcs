@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task03.task0301"\n\nDzielenie jest dobre
+
+Zaimplementuj public static void dziel(int a, int b).
+Metoda powinna dzielić pierwszą liczbę przez drugą oraz wyświetlać wynik dzielenia a przez b.
+Wyświetlany wynik powinien być liczbą całkowitą.
+
+
+Requirements:
+1.	Metoda dziel musi dzielić a przez b.
+2.	Metoda dziel musi wyświetlać wynik dzielenia.
+3.	Metoda main powinna wywoływać metodę dziel 3 razy.
+4.	Metoda main nie powinna wywoływać metody wyświetlania na ekranie.
+5.	Program powinien wyświetlać trzy liczby: 2 1 0. Każdą liczbę w osobnej linii.
+
+
