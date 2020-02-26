@@ -28,7 +28,7 @@ public class Solution {
     mapMonth.put("Lipiec", 7);
     mapMonth.put("Sierpień", 8);
     mapMonth.put("Wrzesień", 9);
-    mapMonth.put("Październik", 10);
+    mapMonth.put("Październk", 10);
     mapMonth.put("Listopad", 11);
     mapMonth.put("Grudzień", 12);
 */
@@ -63,7 +63,7 @@ public class Solution {
     }
     /*List<String> months = Arrays
         .asList("Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień",
-            "Wrzesień", "Październik", "Listopad", "Grudzień");
+            "Wrzesień", "Październk", "Listopad", "Grudzień");
     System.out.println(monthName + "to miesiąc o nr " + (months.indexOf(monthName) + 1));*/
   }
 }

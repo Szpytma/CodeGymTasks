@@ -14,6 +14,7 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
+        // Lista adresów
         List<String> cities = new ArrayList<>();
         List<String> families = new ArrayList<>();
         while (true) {
@@ -32,7 +33,7 @@ public class Solution {
             System.out.println(cities.get(families.indexOf(familyReq)));
         }
         else {
-            System.out.println("Not on system");
+            System.out.println("This family do not exist on the list");
         }
     }
 }
