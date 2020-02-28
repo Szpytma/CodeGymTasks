@@ -5,7 +5,7 @@ Korzystanie z wyjątków przy pracy z liczbami
 */
 
 public class Solution {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ArithmeticException{
 
         try {
             int a = 42 / 0;

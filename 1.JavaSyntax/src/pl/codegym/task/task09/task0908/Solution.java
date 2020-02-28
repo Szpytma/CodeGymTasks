@@ -5,7 +5,7 @@ Wyjątki przy pracy z ciągami
 */
 
 public class Solution {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NullPointerException {
 
         try {
             String s = null;

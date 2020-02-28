@@ -11,7 +11,6 @@ public class Solution {
   }
 
   public static void log(String s) {
-    //tutaj wpisz swój kod
 
     StackTraceElement[] stack = Thread.currentThread().getStackTrace();
     String className = stack[2].getClassName();
