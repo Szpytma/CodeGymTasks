@@ -5,15 +5,14 @@ Korzystanie z wyjątków przy pracy z liczbami
 */
 
 public class Solution {
-    public static void main(String[] args) throws Exception {
-        //tutaj wpisz swój kod
-        try {
+    public static void main(String[] args) {
 
+        try {
             int a = 42 / 0;
+            System.out.println(a);
         } catch (ArithmeticException e) {
             System.out.println(e.toString());
         }
 
-        //tutaj wpisz swój kod
     }
 }

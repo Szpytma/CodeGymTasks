@@ -5,12 +5,17 @@ Wyjątki przy pracy z ciągami
 */
 
 public class Solution {
-    public static void main(String[] args) throws Exception {
-        //tutaj wpisz swój kod
+    public static void main(String[] args) {
 
-        String s = null;
-        String m = s.toLowerCase();
+        try {
+            String s = null;
+            String m = s.toLowerCase();
+            System.out.println(m);
 
-        //tutaj wpisz swój kod
+        } catch (NullPointerException e) {
+            System.out.println(e.toString());
+
+        }
+
     }
 }
