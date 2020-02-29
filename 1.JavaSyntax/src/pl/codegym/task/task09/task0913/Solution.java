@@ -12,7 +12,9 @@ public class Solution {
         //tutaj wpisz swój kod
         try {
             method1();
-        } catch (NullPointerException | FileNotFoundException ignored) {
+        } catch (NullPointerException e) {
+
+        } catch (FileNotFoundException e) {
 
         }
         //tutaj wpisz swój kod
