@@ -8,9 +8,9 @@ Utwórz Set wszystkich kotów z Map i wyświetl go na ekranie.
 Requirements:
 1.	Program nie może wczytywać danych z klawiatury.
 2.	Metoda utworzMap musi tworzyć nowy obiekt HashMap&lt;String, Kot&gt;.
-3.	Metoda utworzMap musi dodawać 10 cat&oacute;w do mapy, reprezentowanych przez pary (imie, Kot).
+3.	Metoda utworzMap musi dodawać 10 kot&oacute;w do mapy, reprezentowanych przez pary (imie, Kot).
 4.	Metoda utworzMap musi zwracać utworzoną mapę.
-5.	Metoda konwertujMapDoSet musi tworzyć i zwracać set cat&oacute;w uzyskany z przekazanej mapy.
+5.	Metoda konwertujMapDoSet musi tworzyć i zwracać set kot&oacute;w uzyskany z przekazanej mapy.
 6.	Program powinien wyświetlać wszystkie koty w zbiorze.
 
 

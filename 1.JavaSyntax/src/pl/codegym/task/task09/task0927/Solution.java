@@ -12,52 +12,52 @@ Dziesięć kotów
 public class Solution {
 
   public static void main(String[] args) {
-    Map<String, Cat> map = createMap();
-    Set<Cat> set = converMapToSet(map);
-    printCatSet(set);
+    Map<String, Kot> mapa = utworzMap();
+    Set<Kot> set = konwertujMapDoSet(mapa);
+    printSetKotow(set);
   }
 
-  public static Map<String, Cat> createMap() {
-    Map<String, Cat> catsMap = new HashMap<>();
-    catsMap.put("Filomon", new Cat("Filomon"));
-    catsMap.put("Bonifacy", new Cat("Bonifacy"));
-    catsMap.put("Andrzej", new Cat("Andrzej"));
-    catsMap.put("Pawel", new Cat("Pawel"));
-    catsMap.put("Mruczek", new Cat("Mruczek"));
-    catsMap.put("Bury", new Cat("Bury"));
-    catsMap.put("Rudy", new Cat("Rudy"));
-    catsMap.put("Bialas", new Cat("Bialas"));
-    catsMap.put("Smolarz", new Cat("Smolarz"));
-    catsMap.put("Kotopies", new Cat("Kotopies"));
+  public static Map<String, Kot> utworzMap() {
+    Map<String, Kot> stringKotMap = new HashMap<>();
+    stringKotMap.put("Filomon", new Kot("Filomon"));
+    stringKotMap.put("Bonifacy", new Kot("Bonifacy"));
+    stringKotMap.put("Andrzej", new Kot("Andrzej"));
+    stringKotMap.put("Pawel", new Kot("Pawel"));
+    stringKotMap.put("Mruczek", new Kot("Mruczek"));
+    stringKotMap.put("Bury", new Kot("Bury"));
+    stringKotMap.put("Rudy", new Kot("Rudy"));
+    stringKotMap.put("Bialas", new Kot("Bialas"));
+    stringKotMap.put("Smolarz", new Kot("Smolarz"));
+    stringKotMap.put("Kotopies", new Kot("Kotopies"));
 
-    return catsMap;
+    return stringKotMap;
   }
 
-  public static Set<Cat> converMapToSet(Map<String, Cat> map) {
-    Set<Cat> catSet = new HashSet<>();
-    Set<Map.Entry<String, Cat>> set = map.entrySet();
-    for (Map.Entry<String, Cat> cat : set) {
+  public static Set<Kot> konwertujMapDoSet(Map<String, Kot> mapa) {
+    Set<Kot> catSet = new HashSet<>();
+    Set<Map.Entry<String, Kot>> set = mapa.entrySet();
+    for (Map.Entry<String, Kot> cat : set) {
       catSet.add(cat.getValue());
     }
     return catSet;
   }
 
-  public static void printCatSet(Set<Cat> set) {
-    for (Cat cat : set) {
-      System.out.println(cat);
+  public static void printSetKotow(Set<Kot> set) {
+    for (Kot kot : set) {
+      System.out.println(kot);
     }
   }
 
-  public static class Cat {
+  public static class Kot {
 
     private String imie;
 
-    public Cat(String name) {
-      this.imie = name;
+    public Kot(String imie) {
+      this.imie = imie;
     }
 
     public String toString() {
-      return "Cat " + this.imie;
+      return "Kot " + this.imie;
     }
   }
 
