@@ -1,11 +1,11 @@
 taskKey="pl.codegym.task.task06.task0621"\n\nRelacje między kotami
 
-Zadanie: każdy kot ma imię i matkę.
+Zadanie: każdy cat ma imię i matkę.
 Utwórz klasę, która opisuje tę sytuację.
-Utwórz dwa obiekty: corka kot i matka.
+Utwórz dwa obiekty: corka cat i matka.
 Wyświetl je na ekranie.
 
-Nowe zadanie: Każdy kot ma imię, ojca i matkę.
+Nowe zadanie: Każdy cat ma imię, ojca i matkę.
 Edytuj klasę Kot tak, by odzwierciedlała te relacje.
 Utwórz 6 obiektów: dziadek (ojciec ojca), babcia (matka matki), ojciec, matka, syn, corka.
 Wyświetl je wszystkie w następującej kolejności: dziadek, babcia, ojciec, matka, syn, corka.
@@ -28,7 +28,7 @@ Imię kota to Corka Koko, Matka Mania to matka, Ojciec Oskar to ojciec
 
 
 Requirements:
-1.	Program powinien czytać imiona 6 kot&oacute;w w określonej kolejności.
+1.	Program powinien czytać imiona 6 cat&oacute;w w określonej kolejności.
 2.	Metoda main powinna tworzyć 6 obiekt&oacute;w Kot.
 3.	Program powinien wyświetlać 6 linii z informacjami o kotach.
 4.	Linia dotycząca dziadka (pierwsza linia) musi spełniać warunki.

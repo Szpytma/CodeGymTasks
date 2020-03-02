@@ -13,7 +13,7 @@ Requirements:
 2.	Wewnątrz klasy Solution powinny być publiczne i statyczne klasy Kot i Pies.
 3.	Metoda klasy Solution utworzKoty() musi zwracać Set zawierający 4 koty.
 4.	Metoda klasy Solution utworzPsy() musi zwracać Set zawierający 3 psy.
-5.	Metoda klasy Solution dolacz() powinna zwracać połączony set wszystkich zwierząt (wszystkich ps&oacute;w i kot&oacute;w).
+5.	Metoda klasy Solution dolacz() powinna zwracać połączony set wszystkich zwierząt (wszystkich ps&oacute;w i cat&oacute;w).
 6.	Metoda usunKoty() powinna usuwać z setu zwierząt wszystkie koty z set koty.
 7.	Metoda printZwierzeta() powinna wyświetlać wszystkie zwierzęta w set zwierzęta. Każde zwierzę powinno być w nowej linii.
 

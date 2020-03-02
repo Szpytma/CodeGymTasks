@@ -4,13 +4,13 @@ Utwórz klasę Kot z pięcioma konstruktorami:
 - Imie,
 - Imie, waga, wiek
 - Imie, wiek (standardowa waga)
-- Waga, kolor (imie, adres i wiek są nieznane; kot jest bezdomny)
+- Waga, kolor (imie, adres i wiek są nieznane; cat jest bezdomny)
 - Waga, kolor, adres (czyjeś inne zwierzę)
 
 Zadaniem konstruktora jest sprawić, by obiekt był poprawny.
 Na przykład, jeśli nie znamy wagi danego kota, powinniśmy określić jego średnią wagę.
 Kot nie może nic nie ważyć.
-To samo tyczy się wieku. Z kolei kot może mieć lub nie mieć imienia (np. imie może być null).
+To samo tyczy się wieku. Z kolei cat może mieć lub nie mieć imienia (np. imie może być null).
 To samo tyczy się adresu (może być null).
 
 

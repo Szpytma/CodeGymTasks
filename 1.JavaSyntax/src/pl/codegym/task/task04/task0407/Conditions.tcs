@@ -9,6 +9,6 @@ Requirements:
 3.	Klasa Kot musi mieć tylko jedną zmienną licznik.
 4.	Zmienna licznik klasy Kot musi być statyczna i typu int, mieć modyfikator dostępu publiczny i być zainicjowana wartością zero.
 5.	Metoda main powinna mieć tylko dwie zainicjowane zmienne Kot.
-6.	Zmienna licznik musi przechowywać aktualną liczbę utworzonych obiekt&oacute;w kot.
+6.	Zmienna licznik musi przechowywać aktualną liczbę utworzonych obiekt&oacute;w cat.
 
 

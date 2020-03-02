@@ -9,7 +9,7 @@ Requirements:
 1.	W klasie Kot utw&oacute;rz publiczną, statyczną zmienną licznikKotow typu int.
 2.	W klasie Kot zadeklaruj konstruktor public Kot() bez parametr&oacute;w.
 3.	Konstruktor musi zwiększać wartość zmiennej statycznej licznikKotow o 1.
-4.	W metodzie main utw&oacute;rz 10 kot&oacute;w.
-5.	W metodzie main, po utworzeniu kot&oacute;w, wyświetl wartość zmiennej licznikKotow.
+4.	W metodzie main utw&oacute;rz 10 cat&oacute;w.
+5.	W metodzie main, po utworzeniu cat&oacute;w, wyświetl wartość zmiennej licznikKotow.
 
 

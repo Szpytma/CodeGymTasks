@@ -10,6 +10,6 @@ Requirements:
 2.	Zmienna koty musi być zainicjalizowana.
 3.	Metoda main powinna utworzyć 10 obiekt&oacute;w Kot (użyj konstruktora Kot()).
 4.	Metoda main musi dodawać wszystkie utworzone koty do zmiennej koty.
-5.	Metoda printKoty powinna wyświetlać wszystkie obiekty kot w zmiennej koty. Każdy w nowej linii.
+5.	Metoda printKoty powinna wyświetlać wszystkie obiekty cat w zmiennej koty. Każdy w nowej linii.
 
 

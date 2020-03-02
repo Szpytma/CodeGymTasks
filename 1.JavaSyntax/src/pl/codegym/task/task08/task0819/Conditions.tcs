@@ -13,6 +13,6 @@ Requirements:
 4.	Metoda klasy Solution printKoty() musi wyświetlać wszystkie koty w secie. Każdego kota w nowej linii.
 5.	Metoda main() powinna wywoływać metodę utworzKoty() jeden raz.
 6.	Metoda main() powinna wywoływać metodę printKoty().
-7.	Metoda main() powinna usuwać jednego kota z setu kot&oacute;w.
+7.	Metoda main() powinna usuwać jednego kota z setu cat&oacute;w.
 
 
