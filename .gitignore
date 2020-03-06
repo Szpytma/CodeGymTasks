@@ -14,7 +14,6 @@ target/
 *.properties
 
 
-/2.JavaCore/
 /3.JavaMultithreading/
 /4.JavaCollections/
 /out/
