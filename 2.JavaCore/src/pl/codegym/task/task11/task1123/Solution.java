@@ -18,12 +18,12 @@ public class Solution {
         int min = array[0];
         int max = array[0];
 
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < min) {
-                min = array[i];
+        for (int value : array) {
+            if (value < min) {
+                min = value;
             }
-            if (array[i] > max) {
-                max = array[i];
+            if (value > max) {
+                max = value;
             }
         }
 
