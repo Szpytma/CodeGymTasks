@@ -37,12 +37,7 @@ public class Solution {
         }
     }
 
-    public class Dog implements CanClimb, CanRun{
-
-        @Override
-        public void climb() {
-
-        }
+    public class Dog implements  CanRun{
 
         @Override
         public void run() {
@@ -50,7 +45,7 @@ public class Solution {
         }
     }
 
-    public class Tiger extends Cat implements CanClimb, CanRun{
+    public class Tiger extends Cat{
 
     }
 
