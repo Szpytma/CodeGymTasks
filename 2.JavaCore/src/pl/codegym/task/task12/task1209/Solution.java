@@ -4,7 +4,7 @@ package pl.codegym.task.task12.task1209;
 Trzy metody i minimum
 */
 
-import com.sun.javafx.collections.MappingChange.Map;
+
 
 public class Solution {
 
