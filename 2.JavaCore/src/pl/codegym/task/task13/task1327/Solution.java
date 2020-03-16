@@ -15,9 +15,9 @@ public class Solution {
         plot.add(new Person("Grandma", plot.get(0)));
         plot.add(new Person("Grandpa", plot.get(1)));
         plot.add(new Person("Turnip", plot.get(2)));
-        for (int i = 1; i < plot.size(); i++) {
-            System.out.println(plot.get(i).pull(plot.get(i)));
-        }
+        TurnipStory.tell(plot);
+
+
     }
 }
 
