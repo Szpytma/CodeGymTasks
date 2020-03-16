@@ -17,7 +17,7 @@ public class Solution {
         plot.add(new Person("Turnip", plot.get(2)));
         TurnipStory.tell(plot);
 
-
     }
 }
+
 

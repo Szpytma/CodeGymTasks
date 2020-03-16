@@ -2,8 +2,8 @@ package pl.codegym.task.task13.task1327;
 
 public class Person implements TurnipItem {
 
-    String name;
-    Person behind;
+    private String name;
+    private Person behind;
 
     public Person(String name, Person behind) {
         this.name = name;
@@ -19,4 +19,3 @@ public class Person implements TurnipItem {
         return person.name;
     }
 }
-
