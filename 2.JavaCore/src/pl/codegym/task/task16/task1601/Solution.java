@@ -1,7 +1,7 @@
 package pl.codegym.task.task16.task1601;
 
 /* 
-My first thread
+Mój pierwszy wątek
 */
 
 public class Solution  {
@@ -11,10 +11,11 @@ public class Solution  {
     }
 
 
+
     public static class TestThread implements Runnable{
         @Override
         public void run() {
-            System.out.println("My first thread");
+            System.out.println("Mój pierwszy wątek");
         }
     }
 }
