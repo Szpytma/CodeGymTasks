@@ -16,7 +16,7 @@ public class Solution {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         Thread t = new Thread(new Countdown(3), "Odliczanie");
         t.start();
     }
