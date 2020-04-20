@@ -14,7 +14,7 @@ public class Solution {
     private static void eat() {
         try {
             Thread.sleep(2000);
-        } catch (InterruptedException e) {
+        } catch (InterruptedException ignored) {
         }
     }
 
