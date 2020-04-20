@@ -5,10 +5,10 @@ Sprawiedliwość
 */
 
 public class Solution {
-    public static void main(String[] args) throws InterruptedException {
-        Mouse alpha = new Mouse("#1");
-        Mouse mouse1 = new Mouse("#2");
-        Mouse mouse2 = new Mouse("#3");
+    public static void main(String[] args)  {
+        new Mouse("#1");
+        new Mouse("#2");
+        new Mouse("#3");
     }
 
     private static void eat() {
