@@ -1,4 +1,3 @@
-
 package pl.codegym.task.task16.task1616;
 
 import java.io.BufferedReader;
@@ -28,7 +27,15 @@ public class Solution {
         private int seconds;
 
         public void run() {
-            //tutaj wpisz swój kod
+            try {//tutaj wpisz swój kod
+                while (!Stopwatch.interrupted()) {
+                    Thread.sleep(1000);
+                    seconds++;
+                }
+
+            } catch (InterruptedException e) {
+                System.out.println(seconds);
+            }
         }
     }
 }
